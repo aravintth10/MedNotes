@@ -79,3 +79,7 @@ desktop.ini
 *.temp
 *.bak
 *.dev.vars
+
+# Local caches
+work/
+npm-cache/
