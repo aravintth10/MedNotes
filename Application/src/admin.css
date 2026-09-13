@@ -1,0 +1,7 @@
+.form-actions{grid-column:1/-1;display:flex;gap:12px;align-items:center}
+.cancel-edit{border:1px solid var(--line);background:transparent;padding:13px 18px;font:14px 'DM Sans';cursor:pointer}
+.table-head,.table-row{grid-template-columns:2fr 1fr 1fr 1fr 1.15fr}
+.table-actions{display:flex;gap:8px}
+.table-actions button{border:1px solid var(--line);background:white;padding:7px 10px;font-size:12px;cursor:pointer}
+.table-actions .delete-button{color:#b6402c;border-color:#edc4bc}
+@media(max-width:800px){.form-actions{grid-column:auto}.admin-table{overflow-x:auto}.table-head,.table-row{min-width:650px;grid-template-columns:2fr 1fr 1fr 1fr 1.15fr}.admin-table .table-head span:last-child{display:block}.admin-table .table-row .table-actions{display:flex}}

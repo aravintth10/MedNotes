@@ -1,0 +1,5 @@
+# Add these as encrypted Cloudflare Pages/Workers secrets when deploying.
+GOOGLE_CLIENT_ID=your-google-oauth-web-client-id.apps.googleusercontent.com
+GOOGLE_CLIENT_SECRET=your-google-oauth-client-secret
+AUTH_ORIGIN=https://your-domain.pages.dev
+ADMIN_ALLOWED_EMAILS=your-google-email@example.com
