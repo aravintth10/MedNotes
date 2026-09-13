@@ -4,6 +4,7 @@
 .env
 .env.*
 !.env.example
+!.dev.vars.example
 
 # =========================
 # Node.js
@@ -25,7 +26,7 @@ venv/
 env/
 
 # =========================
-# Python build/package files
+# Python Build / Packaging
 # =========================
 *.egg-info/
 .eggs/
@@ -35,7 +36,7 @@ build/
 pip-wheel-metadata/
 
 # =========================
-# Frontend Build
+# Frontend Build / Framework
 # =========================
 .next/
 .nuxt/
@@ -43,6 +44,16 @@ pip-wheel-metadata/
 .cache/
 .parcel-cache/
 .vite/
+dist/
+
+# =========================
+# Local Development / Caches
+# =========================
+work/
+npm-cache/
+.cache/
+.tmp/
+temp/
 
 # =========================
 # Database
@@ -64,6 +75,8 @@ logs/
 .idea/
 *.swp
 *.swo
+*.sublime-workspace
+*.sublime-project
 
 # =========================
 # Operating System
@@ -73,13 +86,16 @@ Thumbs.db
 desktop.ini
 
 # =========================
-# Temporary Files
+# Temporary / Backup Files
 # =========================
 *.tmp
 *.temp
 *.bak
-*.dev.vars
+*.old
+*.orig
 
-# Local caches
-work/
-npm-cache/
+# =========================
+# Cloudflare / Local Dev Vars
+# =========================
+.dev.vars
+.wrangler/
